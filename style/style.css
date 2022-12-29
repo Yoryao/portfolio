@@ -53,11 +53,11 @@ body header #mobileMenu {
 }
 body header #mobileMenu a {
   text-decoration: none;
-  color: #44f814;
+  color: #4afd26;
   padding: 1vh 2vh;
 }
 body header #mobileMenu a:hover {
-  border: 1px solid #44f814;
+  border: 1px solid #4afd26;
   border-radius: 30px;
   transform: scale(1.1);
 }
@@ -78,21 +78,42 @@ body main #contactSection p {
   font-size: 0.8rem;
 }
 body main #contactSection form {
-  align-items: center;
   margin: 3% auto;
-  border: 1px solid springgreen;
+  padding: 3%;
+  border: 1px solid #4afd26;
   border-radius: 15px;
   width: 80%;
-  padding: 3%;
+  text-align: left;
+}
+body main #contactSection form label {
+  width: 90%;
+  padding-left: 4%;
 }
 body main #contactSection form input {
   width: 90%;
   padding-left: 2%;
+  margin: auto;
   margin-bottom: 2%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #4afd26;
 }
-body main #contactSection form #submitButton {
-  border-color: springgreen;
-  color: springgreen;
+body main #contactSection form .buttonContainer {
+  justify-content: space-evenly;
+}
+body main #contactSection form .buttonContainer .btn {
+  margin: 3%;
+  width: 30%;
+}
+body main #contactSection form .buttonContainer #submitButton {
+  border: 1px solid;
+  border-color: #4afd26;
+  color: #4afd26;
+}
+body main #contactSection form .buttonContainer #resetButton {
+  border: 1px solid;
+  border-color: #fef661;
+  color: #fef661;
 }
 
 /*# sourceMappingURL=style.css.map */

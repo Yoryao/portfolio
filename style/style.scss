@@ -111,27 +111,50 @@ main {
         }
 
         form {
-            align-items: center;
             margin: 3% auto;
-            border: 1px solid springgreen;
+            padding: 3%;
+            border: 1px solid colors.$greenNeon;
             border-radius: 15px;
             width: 80%;
-            padding: 3%;
+            text-align: left;
             
-         
+            label {
+                width: 90%;
+                padding-left: 4%;
+            }
 
             input {
                 width: 90%;
                 padding-left: 2%;
+                margin: auto;
                 margin-bottom: 2%;
+                
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid colors.$greenNeon;
+
+            }
+
+            .buttonContainer {
+                justify-content: space-evenly;
+
+            .btn {
+                margin: 3%;
+                width: 30%;
             }
 
             #submitButton {
-                border-color: springgreen;
-                color: springgreen;
+                border: 1px solid;
+                border-color: colors.$greenNeon;
+                color: colors.$greenNeon;
             }
 
-
+            #resetButton {
+                border: 1px solid;
+                border-color: colors.$yellowNeon;
+                color:colors.$yellowNeon;
+            }
+            }
         }
 
 
