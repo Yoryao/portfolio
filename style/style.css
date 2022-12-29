@@ -31,8 +31,7 @@ body {
   background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
 }
-
-header {
+body header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -41,7 +40,7 @@ header {
   align-items: center;
   padding: 1vh 1vh;
 }
-header #mobileMenu {
+body header #mobileMenu {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -52,19 +51,48 @@ header #mobileMenu {
   height: 60vh;
   background-color: #435055;
 }
-header #mobileMenu a {
+body header #mobileMenu a {
   text-decoration: none;
   color: #44f814;
   padding: 1vh 2vh;
 }
-header #mobileMenu a:hover {
+body header #mobileMenu a:hover {
   border: 1px solid #44f814;
   border-radius: 30px;
   transform: scale(1.1);
 }
-header #menuIcon {
+body header #menuIcon {
   height: 90%;
   width: auto;
+}
+body main #contactSection {
+  justify-content: center;
+  text-align: center;
+  color: #A3F7BF;
+}
+body main #contactSection h2 {
+  padding: 10px 0;
+}
+body main #contactSection p {
+  margin: 0 8%;
+  font-size: 0.8rem;
+}
+body main #contactSection form {
+  align-items: center;
+  margin: 3% auto;
+  border: 1px solid springgreen;
+  border-radius: 15px;
+  width: 80%;
+  padding: 3%;
+}
+body main #contactSection form input {
+  width: 90%;
+  padding-left: 2%;
+  margin-bottom: 2%;
+}
+body main #contactSection form #submitButton {
+  border-color: springgreen;
+  color: springgreen;
 }
 
 /*# sourceMappingURL=style.css.map */

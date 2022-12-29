@@ -44,10 +44,10 @@ body {
     height: 100vh;
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
-}
+
 
 // header block 
-header {
+    header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -90,18 +90,68 @@ header {
         height: 90%;
         width: auto;
     }
+    }
+
+//  contact block
+main {
+
+    #contactSection {
+        justify-content: center;
+        text-align: center;
+        color: colors.$lime;
+
+        h2 {
+            padding: 10px 0;
+        }
+
+        p {
+            margin: 0 8%;
+            font-size: 0.8rem;
+
+        }
+
+        form {
+            align-items: center;
+            margin: 3% auto;
+            border: 1px solid springgreen;
+            border-radius: 15px;
+            width: 80%;
+            padding: 3%;
+            
+            label {
+
+            }
+
+            input {
+                width: 90%;
+                padding-left: 2%;
+                margin-bottom: 2%;
+            }
+
+            #submitButton {
+                border-color: springgreen;
+                color: springgreen;
+            }
+
+
+        }
 
 
 
 
 
+
+
+
+
+
+
+    }
 
 
 
 }
-
-
-
+}
 
 
 
