@@ -89,7 +89,7 @@ body main #contactSection form label {
   width: 90%;
   padding-left: 4%;
 }
-body main #contactSection form input {
+body main #contactSection form input textarea {
   width: 90%;
   padding-left: 2%;
   margin: auto;
@@ -102,8 +102,9 @@ body main #contactSection form .buttonContainer {
   justify-content: space-evenly;
 }
 body main #contactSection form .buttonContainer .btn {
+  padding-right: 2%;
   margin: 3%;
-  width: 30%;
+  width: 40%;
 }
 body main #contactSection form .buttonContainer #submitButton {
   border: 1px solid;

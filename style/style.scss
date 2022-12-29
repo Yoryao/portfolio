@@ -123,7 +123,7 @@ main {
                 padding-left: 4%;
             }
 
-            input {
+            input textarea{
                 width: 90%;
                 padding-left: 2%;
                 margin: auto;
@@ -139,8 +139,10 @@ main {
                 justify-content: space-evenly;
 
             .btn {
+                padding-right: 2%;
+
                 margin: 3%;
-                width: 30%;
+                width: 40%;
             }
 
             #submitButton {
