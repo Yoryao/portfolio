@@ -44,10 +44,10 @@ body {
     height: 100vh;
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
-}
+
 
 // header block 
-header {
+    header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -90,6 +90,74 @@ header {
         height: 90%;
         width: auto;
     }
+    }
+
+//  contact block
+main {
+
+    #contactSection {
+        justify-content: center;
+        text-align: center;
+        color: colors.$lime;
+
+        h2 {
+            padding: 10px 0;
+        }
+
+        p {
+            margin: 0 8%;
+            font-size: 0.8rem;
+
+        }
+
+        form {
+            margin: 3% auto;
+            padding: 3%;
+            border: 1px solid colors.$greenNeon;
+            border-radius: 15px;
+            width: 80%;
+            text-align: left;
+            
+            label {
+                width: 90%;
+                padding-left: 4%;
+            }
+
+            input textarea{
+                width: 90%;
+                padding-left: 2%;
+                margin: auto;
+                margin-bottom: 2%;
+                
+                background-color: transparent;
+                border: none;
+                border-bottom: 1px solid colors.$greenNeon;
+
+            }
+
+            .buttonContainer {
+                justify-content: space-evenly;
+
+            .btn {
+                padding-right: 2%;
+
+                margin: 3%;
+                width: 40%;
+            }
+
+            #submitButton {
+                border: 1px solid;
+                border-color: colors.$greenNeon;
+                color: colors.$greenNeon;
+            }
+
+            #resetButton {
+                border: 1px solid;
+                border-color: colors.$yellowNeon;
+                color:colors.$yellowNeon;
+            }
+            }
+        }
 
 
 
@@ -98,10 +166,26 @@ header {
 
 
 
+
+
+
+    }
+
+    #socialSection {
+        justify-content: center;
+        text-align: center;
+        color: colors.$lime;
+
+        h2 {
+            padding: 10px 0;
+        }
+
+        p {
+            margin: 0 8%;
+            font-size: 0.8rem;
+        }
+    }
 }
-
-
-
 
 
 
@@ -122,4 +206,4 @@ header {
 
 
 
-
+}
