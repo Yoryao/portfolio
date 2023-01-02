@@ -116,5 +116,17 @@ body main #contactSection form .buttonContainer #resetButton {
   border-color: #fef661;
   color: #fef661;
 }
+body main #socialSection {
+  justify-content: center;
+  text-align: center;
+  color: #A3F7BF;
+}
+body main #socialSection h2 {
+  padding: 10px 0;
+}
+body main #socialSection p {
+  margin: 0 8%;
+  font-size: 0.8rem;
+}
 
 /*# sourceMappingURL=style.css.map */

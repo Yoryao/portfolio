@@ -171,9 +171,20 @@ main {
 
     }
 
+    #socialSection {
+        justify-content: center;
+        text-align: center;
+        color: colors.$lime;
 
+        h2 {
+            padding: 10px 0;
+        }
 
-}
+        p {
+            margin: 0 8%;
+            font-size: 0.8rem;
+        }
+    }
 }
 
 
@@ -195,4 +206,4 @@ main {
 
 
 
-
+}
