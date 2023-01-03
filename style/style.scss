@@ -32,6 +32,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid yellow;
 }
 
 
@@ -109,7 +110,16 @@ body {
             font-size: 0.8rem;
 
         }
+
     }
+        .heroSection {
+            
+            width: 100%;
+            justify-content: center;
+            img{
+                width: 150%;
+            }
+        }
     // works block
 
     #worksSection {
@@ -122,7 +132,7 @@ body {
             border: 1px solid springgreen;
             border-radius: 15px;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
       
             h3, p {
@@ -137,31 +147,13 @@ body {
         
             a {
                 margin-bottom: 3%;
-                display: flex;
-                width: 50%;
                 justify-content: center;
                 img {
-                    width: 40%;
+                     width: 90%;
                 }
-
             }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         }
-
-
-
-
-
 
     }
 
