@@ -79,23 +79,23 @@ body {
             border-radius: 30px;
             transform: scale(1.1);
         }
-
-
-
-
-
+        
+        
+        
+        
+        
     }
-
+    
     #menuIcon {
         height: 90%;
         width: auto;
     }
     }
 
-//  contact block
-main {
-
-    #contactSection {
+    // main block 
+    main {
+        
+        .sectionFont {
         justify-content: center;
         text-align: center;
         color: colors.$lime;
@@ -109,7 +109,66 @@ main {
             font-size: 0.8rem;
 
         }
+    }
+    // works block
 
+    #worksSection {
+
+        
+        
+        
+        .cardContainer {
+            margin: 10%;
+            border: 1px solid springgreen;
+            border-radius: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+      
+            h3, p {
+                margin: 3%;
+            }
+            
+            img {
+                width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+        
+            a {
+                margin-bottom: 3%;
+                display: flex;
+                width: 50%;
+                justify-content: center;
+                img {
+                    width: 40%;
+                }
+
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+    }
+
+
+    //  contact block
+    #contactSection {
+        
         form {
             margin: 3% auto;
             padding: 3%;
@@ -172,25 +231,13 @@ main {
     }
 
     #socialSection {
-        justify-content: center;
-        text-align: center;
-        color: colors.$lime;
 
-        h2 {
-            padding: 10px 0;
-        }
-
-        p {
-            margin: 0 8%;
-            font-size: 0.8rem;
-        }
     }
 }
 
 
 
 // hero block 
-// main block 
 // footer block 
 
 

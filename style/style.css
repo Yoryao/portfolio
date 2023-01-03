@@ -65,17 +65,42 @@ body header #menuIcon {
   height: 90%;
   width: auto;
 }
-body main #contactSection {
+body main .sectionFont {
   justify-content: center;
   text-align: center;
   color: #A3F7BF;
 }
-body main #contactSection h2 {
+body main .sectionFont h2 {
   padding: 10px 0;
 }
-body main #contactSection p {
+body main .sectionFont p {
   margin: 0 8%;
   font-size: 0.8rem;
+}
+body main #worksSection .cardContainer {
+  margin: 10%;
+  border: 1px solid springgreen;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body main #worksSection .cardContainer h3, body main #worksSection .cardContainer p {
+  margin: 3%;
+}
+body main #worksSection .cardContainer img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+body main #worksSection .cardContainer a {
+  margin-bottom: 3%;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+body main #worksSection .cardContainer a img {
+  width: 40%;
 }
 body main #contactSection form {
   margin: 3% auto;
@@ -115,18 +140,6 @@ body main #contactSection form .buttonContainer #resetButton {
   border: 1px solid;
   border-color: #fef661;
   color: #fef661;
-}
-body main #socialSection {
-  justify-content: center;
-  text-align: center;
-  color: #A3F7BF;
-}
-body main #socialSection h2 {
-  padding: 10px 0;
-}
-body main #socialSection p {
-  margin: 0 8%;
-  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
