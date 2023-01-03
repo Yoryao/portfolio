@@ -32,7 +32,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid yellow;
 }
 
 
@@ -42,7 +41,6 @@
 // body block
 
 body {
-    height: 100vh;
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;
 
@@ -56,6 +54,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1vh 1vh;
+    background-color: colors.$complementary ;
 
     #mobileMenu {
         flex-direction: column;
