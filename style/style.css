@@ -33,8 +33,8 @@ body {
 body header {
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 9vh;
+  width: 100vw;
+  height: 8vh;
   justify-content: space-between;
   align-items: center;
   padding: 1vh 1vh;
