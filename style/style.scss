@@ -1,248 +1,230 @@
-@use 'fonts.scss';
-@use 'colors.scss';
-
+@use "fonts.scss";
+@use "colors.scss";
 
 // Own Classes
 
 .flexCol {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flexRow {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .title {
-    font-family: fonts.$fjalla;
+  font-family: fonts.$fjalla;
 }
 
 .text {
-    font-family: fonts.$noto;
+  font-family: fonts.$noto;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 // general block
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
-
 
 // body block
 
 body {
-    width: 100vw;
-    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-repeat: no-repeat;
+  // width: 100vw;
+  background: linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
 
-
-// header block 
-    header {
+  // header block
+  header {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     justify-content: space-between;
     align-items: center;
     padding: 1vh 1vh;
-    background-color: colors.$complementary ;
+    background-color: colors.$complementary;
 
     #mobileMenu {
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        position: absolute;
-        top: 9vh;
-        right: 0;
-        width: 75%;
-        height: 60vh;
-        background-color: colors.$gray;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      position: absolute;
+      top: 9vh;
+      right: 0;
+      width: 75%;
+      height: 60vh;
+      background-color: colors.$gray;
 
-        a {
-            text-decoration: none;
-            color: colors.$greenNeon;
-            padding: 1vh 2vh;
-            
-        }
+      a {
+        text-decoration: none;
+        color: colors.$greenNeon;
+        padding: 1vh 2vh;
+      }
 
-        a:hover {
-            border: 1px solid colors.$greenNeon;
-            border-radius: 30px;
-            transform: scale(1.1);
-        }
-        
-        
-        
-        
-        
+      a:hover {
+        border: 1px solid colors.$greenNeon;
+        border-radius: 30px;
+        transform: scale(1.1);
+      }
     }
-    
+
     #menuIcon {
-        height: 90%;
-        width: auto;
+      height: 90%;
+      width: auto;
     }
+  }
+
+  // main block
+  main {
+    .sectionFont {
+      justify-content: center;
+      text-align: center;
+      color: colors.$lime;
+
+      h2 {
+        padding: 10px 0;
+      }
+
+      p {
+        margin: 0 8%;
+        font-size: 0.8rem;
+      }
     }
-
-    // main block 
-    main {
-        
-        .sectionFont {
-        justify-content: center;
-        text-align: center;
-        color: colors.$lime;
-
-        h2 {
-            padding: 10px 0;
-        }
-
-        p {
-            margin: 0 8%;
-            font-size: 0.8rem;
-
-        }
-
+    .heroSection {
+      overflow: hidden;
+      width: 100%;
+      justify-content: center;
+      img {
+        overflow: hidden;
+        width: 140%;
+      }
     }
-        .heroSection {
-            width: 100%;
-            justify-content: center;
-            img{
-                overflow: hidden;
-                width: 140%;
-            }
-        }
     // works block
 
     #worksSection {
+      .cardContainer {
+        margin: 10%;
+        border: 1px solid springgreen;
+        border-radius: 15px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
 
-        
-        
-        
-        .cardContainer {
-            margin: 10%;
-            border: 1px solid springgreen;
-            border-radius: 15px;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            align-items: center;
-      
-            h3, p {
-                margin: 3%;
-            }
-            
-            img {
-                width: 100%;
-                border-top-left-radius: 15px;
-                border-top-right-radius: 15px;
-            }
-        
-            a {
-                margin-bottom: 3%;
-                justify-content: center;
-                img {
-                     width: 90%;
-                }
-            }
-        
+        h3,
+        p {
+          margin: 3%;
         }
 
-    }
+        img {
+          width: 100%;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
 
+        a {
+          margin-bottom: 3%;
+          justify-content: center;
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
 
     //  contact block
     #contactSection {
-        
-        form {
-            margin: 3% auto;
-            padding: 3%;
-            border: 1px solid colors.$greenNeon;
-            border-radius: 15px;
-            width: 80%;
-            text-align: left;
-            
-            label {
-                width: 90%;
-                padding-left: 4%;
-            }
+      form {
+        margin: 3% auto;
+        padding: 3%;
+        border: 1px solid colors.$greenNeon;
+        border-radius: 15px;
+        width: 80%;
+        text-align: left;
 
-            input textarea{
-                width: 90%;
-                padding-left: 2%;
-                margin: auto;
-                margin-bottom: 2%;
-                
-                background-color: transparent;
-                border: none;
-                border-bottom: 1px solid colors.$greenNeon;
-
-            }
-
-            .buttonContainer {
-                justify-content: space-evenly;
-
-            .btn {
-                padding-right: 2%;
-
-                margin: 3%;
-                width: 40%;
-            }
-
-            #submitButton {
-                border: 1px solid;
-                border-color: colors.$greenNeon;
-                color: colors.$greenNeon;
-            }
-
-            #resetButton {
-                border: 1px solid;
-                border-color: colors.$yellowNeon;
-                color:colors.$yellowNeon;
-            }
-            }
+        label {
+          width: 90%;
+          padding-left: 4%;
         }
 
+        input textarea {
+          width: 90%;
+          padding-left: 2%;
+          margin: auto;
+          margin-bottom: 2%;
 
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid colors.$greenNeon;
+        }
 
+        .buttonContainer {
+          justify-content: space-evenly;
 
+          .btn {
+            padding-right: 2%;
 
+            margin: 3%;
+            width: 40%;
+          }
 
+          #submitButton {
+            border: 1px solid;
+            border-color: colors.$greenNeon;
+            color: colors.$greenNeon;
+          }
 
-
-
-
-
+          #resetButton {
+            border: 1px solid;
+            border-color: colors.$yellowNeon;
+            color: colors.$yellowNeon;
+          }
+        }
+      }
     }
 
     #socialSection {
-
     }
-}
+    // footer block
+  }
 
+  #footerSection {
+    padding-top: 1vh;
+    height: 13vh;
+    // width: 100%;
+    background-color: colors.$gray;
+    justify-content: space-evenly;
+    align-items: center;
 
+    p {
+      padding-top: 1vh;
 
-// hero block 
-// footer block 
+      a {
+        text-decoration: none;
+      }
+    }
 
+    div {
+      a {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 60%;
+        }
+      }
+    }
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
+  // hero block
 }
