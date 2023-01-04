@@ -83,8 +83,7 @@ body main .heroSection {
   justify-content: center;
 }
 body main .heroSection img {
-  overflow: hidden;
-  width: 140%;
+  width: 150%;
 }
 body main #worksSection .cardContainer {
   margin: 10%;
@@ -146,8 +145,8 @@ body main #contactSection form .buttonContainer #submitButton {
 }
 body main #contactSection form .buttonContainer #resetButton {
   border: 1px solid;
-  border-color: #fef661;
-  color: #fef661;
+  border-color: #D926FD;
+  color: #D926FD;
 }
 body #footerSection {
   padding-top: 1vh;

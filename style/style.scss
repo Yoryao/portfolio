@@ -107,8 +107,8 @@ body {
       width: 100%;
       justify-content: center;
       img {
-        overflow: hidden;
-        width: 140%;
+        // overflow:visible;
+        width: 150%;
       }
     }
     // works block
@@ -187,8 +187,8 @@ body {
 
           #resetButton {
             border: 1px solid;
-            border-color: colors.$yellowNeon;
-            color: colors.$yellowNeon;
+            border-color: colors.$complementary;
+            color: colors.$complementary;
           }
         }
       }
