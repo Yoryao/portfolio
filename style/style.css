@@ -25,13 +25,12 @@ body {
   background-repeat: no-repeat;
 }
 body #upIcon {
+  border-radius: 100px;
   position: fixed;
   right: 5px;
   bottom: 5px;
   text-align: right;
-}
-body #upIcon img {
-  width: 50%;
+  background-color: #4afd26;
 }
 body header {
   position: fixed;
@@ -48,7 +47,7 @@ body header #mobileMenu {
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  top: 9vh;
+  top: 8vh;
   right: 0;
   width: 75%;
   height: 60vh;
@@ -91,6 +90,7 @@ body main .heroSection img {
   width: 150%;
 }
 body main .personalSection {
+  margin-bottom: 7vh;
   text-align: center;
 }
 body main .personalSection h2 {
@@ -108,23 +108,49 @@ body main .personalSection div li {
 body main .personalSection div li h6 {
   text-align: left;
 }
+body main .experienceSection {
+  margin-bottom: 7vh;
+}
+body main .experienceSection div {
+  justify-content: space-around;
+}
+body main .experienceSection div input {
+  width: 30%;
+}
+body main .experienceSection div #auditorButton {
+  border: 1px solid;
+  border-color: #D926FD;
+  color: #D926FD;
+}
+body main .experienceSection div #auditorButton:hover {
+  background-color: #D926FD;
+  color: #435055;
+}
+body main .experienceSection div #frontendButton {
+  border: 1px solid;
+  border-color: #4afd26;
+  color: #4afd26;
+}
+body main .experienceSection div #frontendButton:hover {
+  background-color: #4afd26;
+  color: #435055;
+}
+body main #worksSection {
+  margin-bottom: 7vh;
+}
 body main #worksSection .cardContainer {
-  position: static;
-  height: 95vh;
+  height: 80vh;
   margin: 10%;
   border: 1px solid springgreen;
   border-radius: 15px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
 }
 body main #worksSection .cardContainer h3,
 body main #worksSection .cardContainer p {
   margin: 3%;
 }
 body main #worksSection .cardContainer .cardImage {
-  position: static;
-  top: 0;
   height: 50%;
   width: 100%;
   border-top-left-radius: 15px;
@@ -136,6 +162,12 @@ body main #worksSection .cardContainer a {
 }
 body main #worksSection .cardContainer a img {
   width: 60%;
+}
+body main #contactSection {
+  margin-bottom: 7vh;
+}
+body main #contactSection p {
+  margin-bottom: 3vh;
 }
 body main #contactSection form {
   margin: 3% auto;
@@ -171,10 +203,18 @@ body main #contactSection form .buttonContainer #submitButton {
   border-color: #4afd26;
   color: #4afd26;
 }
+body main #contactSection form .buttonContainer #submitButton:hover {
+  background-color: #4afd26;
+  color: #435055;
+}
 body main #contactSection form .buttonContainer #resetButton {
   border: 1px solid;
   border-color: #D926FD;
   color: #D926FD;
+}
+body main #contactSection form .buttonContainer #resetButton:hover {
+  background-color: #D926FD;
+  color: #435055;
 }
 body #footerSection {
   padding-top: 1vh;
