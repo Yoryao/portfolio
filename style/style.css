@@ -20,8 +20,18 @@
 }
 
 body {
+  position: relative;
   background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
+}
+body #upIcon {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  text-align: right;
+}
+body #upIcon img {
+  width: 50%;
 }
 body header {
   position: fixed;
@@ -55,7 +65,7 @@ body header #mobileMenu a:hover {
   transform: scale(1.1);
 }
 body header #menuIcon {
-  height: 90%;
+  height: 60%;
   width: auto;
 }
 body main .sectionFont {
@@ -71,6 +81,8 @@ body main .sectionFont p {
   font-size: 0.8rem;
 }
 body main .heroSection {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   overflow: hidden;
   width: 100%;
   justify-content: center;
@@ -78,7 +90,27 @@ body main .heroSection {
 body main .heroSection img {
   width: 150%;
 }
+body main .personalSection {
+  text-align: center;
+}
+body main .personalSection h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-decoration: underline;
+}
+body main .personalSection div {
+  margin: 2% 5%;
+}
+body main .personalSection div li {
+  list-style-type: circle;
+}
+body main .personalSection div li h6 {
+  text-align: left;
+}
 body main #worksSection .cardContainer {
+  position: static;
+  height: 95vh;
   margin: 10%;
   border: 1px solid springgreen;
   border-radius: 15px;
@@ -90,7 +122,10 @@ body main #worksSection .cardContainer h3,
 body main #worksSection .cardContainer p {
   margin: 3%;
 }
-body main #worksSection .cardContainer img {
+body main #worksSection .cardContainer .cardImage {
+  position: static;
+  top: 0;
+  height: 50%;
   width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -100,7 +135,7 @@ body main #worksSection .cardContainer a {
   justify-content: center;
 }
 body main #worksSection .cardContainer a img {
-  width: 90%;
+  width: 60%;
 }
 body main #contactSection form {
   margin: 3% auto;
@@ -143,23 +178,33 @@ body main #contactSection form .buttonContainer #resetButton {
 }
 body #footerSection {
   padding-top: 1vh;
-  height: 13vh;
+  height: 17vh;
   background-color: #435055;
   justify-content: space-evenly;
   align-items: center;
 }
-body #footerSection p {
-  padding-top: 1vh;
+body #footerSection .footerIconContainer {
+  justify-content: space-evenly;
+  padding-top: 10px;
 }
-body #footerSection p a {
-  text-decoration: none;
-}
-body #footerSection div a {
+body #footerSection .footerIconContainer a {
   display: flex;
   justify-content: center;
 }
-body #footerSection div a img {
-  width: 60%;
+body #footerSection .footerIconContainer a img {
+  width: 30%;
+}
+body #footerSection .footerTextContainer {
+  padding-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body #footerSection .footerTextContainer a {
+  text-decoration: none;
+  color: #4afd26;
 }
 
 /*# sourceMappingURL=style.css.map */

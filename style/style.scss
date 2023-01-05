@@ -39,15 +39,27 @@
 // body block
 
 body {
+  position: relative;
+  
+  
   // width: 100vw;
   background: linear-gradient(
     to bottom,
     #2c5364,
     #203a43,
     #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-repeat: no-repeat;
-
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    
+    #upIcon {
+      position: fixed;
+      right: 5px;
+      bottom: 5px;
+      text-align: right;
+      img {
+        width: 50%;
+            }
+    }
   // header block
   header {
     position: fixed;
@@ -84,7 +96,7 @@ body {
     }
 
     #menuIcon {
-      height: 90%;
+      height: 60%;
       width: auto;
     }
   }
@@ -106,6 +118,8 @@ body {
       }
     }
     .heroSection {
+      margin-top: 10vh;
+      margin-bottom: 10vh;
       overflow: hidden;
       width: 100%;
       justify-content: center;
@@ -116,8 +130,44 @@ body {
     }
     // works block
 
+    .personalSection {
+    
+      text-align: center;
+    h2 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
+      text-decoration: underline;
+    }
+
+    div {
+      margin: 2% 5%;
+      
+      li {
+
+        list-style-type: circle ;
+
+        h6 {
+          text-align: left;
+
+        }
+      }
+    
+    
+    }
+
+
+
+
+    }
+
+
+
+
     #worksSection {
       .cardContainer {
+        position: static;
+        height: 95vh;
         margin: 10%;
         border: 1px solid springgreen;
         border-radius: 15px;
@@ -130,7 +180,10 @@ body {
           margin: 3%;
         }
 
-        img {
+        .cardImage {
+          position: static;
+          top: 0;
+          height: 50%;
           width: 100%;
           border-top-left-radius: 15px;
           border-top-right-radius: 15px;
@@ -140,7 +193,7 @@ body {
           margin-bottom: 3%;
           justify-content: center;
           img {
-            width: 90%;
+            width: 60%;
           }
         }
       }
@@ -197,37 +250,51 @@ body {
       }
     }
 
-    #socialSection {
-    }
+
     // footer block
   }
 
   #footerSection {
     padding-top: 1vh;
-    height: 13vh;
+    height: 17vh;
     // width: 100%;
     background-color: colors.$gray;
     justify-content: space-evenly;
     align-items: center;
 
-    p {
-      padding-top: 1vh;
-
-      a {
-        text-decoration: none;
-      }
-    }
-
-    div {
+ 
+    .footerIconContainer {
+      justify-content: space-evenly;
+      padding-top: 10px;
       a {
         display: flex;
         justify-content: center;
         img {
-          width: 60%;
+          width: 30%;
         }
       }
     }
+
+    .footerTextContainer {
+      padding-top: 10px;
+      width: 100%;
+      justify-content:space-between;
+      // justify-content: flex-end;
+      font-size: 90%;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      a {
+        text-decoration: none;
+        color: colors.$greenNeon;
+
+      }
+
+
+    }
+
   }
 
+ 
   // hero block
 }
