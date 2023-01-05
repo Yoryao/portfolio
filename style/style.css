@@ -8,14 +8,6 @@
   flex-direction: row;
 }
 
-.title {
-  font-family: "Fjalla One", sans-serif;
-}
-
-.text {
-  font-family: "Noto Sans", sans-serif;
-}
-
 .hidden {
   display: none;
 }
@@ -24,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Text Me One", sans-serif;
 }
 
 body {
