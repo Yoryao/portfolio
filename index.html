@@ -15,14 +15,14 @@
 <body class="flexCol" id="bodySection">
 <!-- -----header block----- -->
     <header class="flexRow">
-        <img src="./images/" alt="logoImage">
+        <img src="./images/logo_beta.png" alt="logoImage">
 
         <nav class="flexRow text hidden" id="mobileMenu">
-            <a href="#personalSection">About Me</a>
+            <a class="menuAnchor" href="#personalSection">About Me</a>
             <!-- in experience I must include soft and hard skills -->
-            <a href="#experienceSection">Exp & Studies</a>
-            <a href="#worksSection">Projects</a>
-            <a href="#contactSection">Contact</a>
+            <a class="menuAnchor" href="#experienceSection">Exp & Studies</a>
+            <a class="menuAnchor" href="#worksSection">Projects</a>
+            <a class="menuAnchor" href="#contactSection">Contact</a>
         </nav>
 
         <!-- icon for mobile version -->
@@ -59,8 +59,9 @@
 <section class="experienceSection sectionFont" id="experienceSection">
     <h2 class="title">If you are interest in my resumes...</h2>
     <div class="flexRow buttonContainer">
-        <input class="btn cvBtn btn-outline-warning"  value="Auditor" id="auditorButton">
-        <input class="btn cvBtn btn-outline-danger"  value="FrontEnd" id="frontendButton">
+        <button class="btn cvBtn btn-outline-warning"  id="auditorButton">
+            <a href="./docs/CV JORGE RIVERA AUDITOR - ASISTENTE.pdf" download>Auditor</a></button>
+        <button class="btn cvBtn btn-outline-danger"  id="frontendButton"><a href="./docs/CV JORGE RIVERA FRONTE END - DECEMBER (1).pdf" download>FrontEnd</a></button>
 
     </div>
 </section>

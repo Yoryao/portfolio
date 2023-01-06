@@ -42,6 +42,9 @@ body header {
   padding: 1vh 1vh;
   background-color: #D926FD;
 }
+body header img {
+  height: 3vh;
+}
 body header #mobileMenu {
   flex-direction: column;
   justify-content: space-evenly;
@@ -114,8 +117,12 @@ body main .experienceSection {
 body main .experienceSection div {
   justify-content: space-around;
 }
-body main .experienceSection div input {
+body main .experienceSection div button {
   width: 30%;
+}
+body main .experienceSection div button a {
+  text-decoration: none;
+  color: aliceblue;
 }
 body main .experienceSection div #auditorButton {
   border: 1px solid;

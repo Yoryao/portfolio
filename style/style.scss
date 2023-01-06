@@ -72,6 +72,10 @@ body {
     padding: 1vh 1vh;
     background-color: colors.$complementary;
 
+    img {
+      height: 3vh;
+    };
+
     #mobileMenu {
       flex-direction: column;
       justify-content: space-evenly;
@@ -166,8 +170,14 @@ body {
       margin-bottom: 7vh;
       div{
         justify-content: space-around;
-        input {
+        button {
           width: 30%;
+
+        a {
+          text-decoration: none; 
+          color: aliceblue;
+        }
+
         }
         #auditorButton {
           border: 1px solid;
