@@ -339,3 +339,245 @@ body {
     }
   }
 }
+
+@media screen and (min-width: 920px) {
+
+  body {
+    position: relative;
+      
+      #upIcon {
+        right: 25px;
+        bottom: 25px;
+      }
+    
+      // header block
+    header {
+      img {
+        height: 3vh;
+      };
+
+      #menuIcon {
+        display: none;
+      }
+  
+      #mobileMenu {
+        display: inline;
+        position: static;
+        background-color: transparent;
+        width: unset;
+        height: unset;
+        font-size: 1.5rem;
+        
+        a {
+          font-weight: bold;
+        }
+  
+        a:hover {
+          background-color: colors.$greenNeon;
+          color: colors.$gray;
+          border-radius: 30px;   
+        }
+      }
+    }
+  
+    // main block
+    main {
+      .sectionFont {
+        justify-content: center;
+        text-align: center;
+        color: colors.$lime;
+  
+      }
+      .heroSection {
+        border: 1px yellow;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        height: 110vh;
+        width: 120%;
+        justify-content: center;
+        margin-left: -10%;
+      }
+      // works block
+  
+      .personalSection {
+        margin-bottom: 7vh;
+        text-align: center;
+      h2 {
+        width: 85%;
+        font-size: 3rem;
+      }
+  
+      .factsContainer {
+        margin: 2% 5%;
+        .liContainer {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        li {
+          padding-top: 2vh;
+          width: 40%;   
+          
+          h6 {
+            font-size: 2rem;
+          }
+        }
+      } 
+    }
+  }
+  
+      .experienceSection {
+       
+        div{
+          width: 70%;
+          margin-left: 15%;
+          justify-content: space-around;
+          button {
+            height: 50px;
+            width: 20%;
+            a {
+            text-decoration: none; 
+            color: aliceblue;
+          }
+          }
+          #auditorButton {
+       
+          &:hover {
+        
+            color: colors.$black;
+          }
+  
+          }
+  
+          #frontendButton {
+    
+            &:hover {
+         
+              color: colors.$black;
+            }
+          }
+        }
+      }
+  
+  
+      #worksSection {
+        flex-wrap: nowrap;
+        flex-direction: row;
+          h2 p {
+            display: block;
+            width: 50%;
+          }
+          
+        .cardContainer {
+          display: flex;
+          width: 150px;
+   
+       
+        }
+      }
+  
+      //  contact block
+      #contactSection {
+        margin-bottom: 7vh;
+        p {
+          margin-bottom: 3vh;
+        }
+  
+        form {
+          margin: 3% auto;
+          padding: 3%;
+          border: 1px solid colors.$greenNeon;
+          border-radius: 15px;
+          width: 80%;
+          text-align: left;
+  
+          label {
+            width: 90%;
+            padding-left: 4%;
+          }
+  
+          input textarea {
+            width: 90%;
+            padding-left: 2%;
+            margin: auto;
+            margin-bottom: 2%;
+  
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid colors.$greenNeon;
+          }
+  
+          .buttonContainer {
+            justify-content: space-evenly;
+  
+            .btn {
+              padding-right: 2%;
+  
+              margin: 3%;
+              width: 40%;
+            }
+  
+            #submitButton {
+              border: 1px solid;
+            border-color: colors.$greenNeon;
+            color: colors.$greenNeon;
+          &:hover {
+            background-color: colors.$greenNeon;
+            color: colors.$gray;
+          }
+        }
+            #resetButton {
+              border: 1px solid;
+              border-color: colors.$complementary;
+              color: colors.$complementary;
+              &:hover {
+                background-color: colors.$complementary;
+                color: colors.$gray;
+              }
+          }}
+        }
+      }
+  
+  
+      // footer block
+    }
+  
+    #footerSection {
+      padding-top: 1vh;
+      height: 17vh;
+      // width: 100%;
+      background-color: colors.$gray;
+      justify-content: space-evenly;
+      align-items: center;
+   
+      .footerIconContainer {
+        justify-content: space-evenly;
+        padding-top: 10px;
+        a {
+          display: flex;
+          justify-content: center;
+          img {
+            width: 40%;
+          }
+        }
+      }
+  
+      .footerTextContainer {
+        padding-top: 10px;
+        width: 100%;
+        justify-content:space-between;
+        // justify-content: flex-end;
+        font-size: 100%;
+        padding-left: 15px;
+        padding-right: 10px;
+  
+        a {
+          text-decoration: none;
+          color: colors.$greenNeon;
+        }
+      }
+    }
+  }
+
+  
+}

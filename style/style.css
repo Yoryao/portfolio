@@ -254,4 +254,188 @@ body #footerSection .footerTextContainer a {
   color: #4afd26;
 }
 
+@media screen and (min-width: 920px) {
+  body {
+    position: relative;
+  }
+  body #upIcon {
+    right: 25px;
+    bottom: 25px;
+  }
+  body header img {
+    height: 3vh;
+  }
+  body header #menuIcon {
+    display: none;
+  }
+  body header #mobileMenu {
+    display: inline;
+    position: static;
+    background-color: transparent;
+    width: unset;
+    height: unset;
+    font-size: 1.5rem;
+  }
+  body header #mobileMenu a {
+    font-weight: bold;
+  }
+  body header #mobileMenu a:hover {
+    background-color: #4afd26;
+    color: #435055;
+    border-radius: 30px;
+  }
+  body main .sectionFont {
+    justify-content: center;
+    text-align: center;
+    color: #A3F7BF;
+  }
+  body main .heroSection {
+    border: 1px yellow;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    height: 110vh;
+    width: 120%;
+    justify-content: center;
+    margin-left: -10%;
+  }
+  body main .personalSection {
+    margin-bottom: 7vh;
+    text-align: center;
+  }
+  body main .personalSection h2 {
+    width: 85%;
+    font-size: 3rem;
+  }
+  body main .personalSection .factsContainer {
+    margin: 2% 5%;
+  }
+  body main .personalSection .factsContainer .liContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  body main .personalSection .factsContainer .liContainer li {
+    padding-top: 2vh;
+    width: 40%;
+  }
+  body main .personalSection .factsContainer .liContainer li h6 {
+    font-size: 2rem;
+  }
+  body main .experienceSection div {
+    width: 70%;
+    margin-left: 15%;
+    justify-content: space-around;
+  }
+  body main .experienceSection div button {
+    height: 50px;
+    width: 20%;
+  }
+  body main .experienceSection div button a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  body main .experienceSection div #auditorButton:hover {
+    color: #27323A;
+  }
+  body main .experienceSection div #frontendButton:hover {
+    color: #27323A;
+  }
+  body main #worksSection {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  body main #worksSection h2 p {
+    display: block;
+    width: 50%;
+  }
+  body main #worksSection .cardContainer {
+    display: flex;
+    width: 150px;
+  }
+  body main #contactSection {
+    margin-bottom: 7vh;
+  }
+  body main #contactSection p {
+    margin-bottom: 3vh;
+  }
+  body main #contactSection form {
+    margin: 3% auto;
+    padding: 3%;
+    border: 1px solid #4afd26;
+    border-radius: 15px;
+    width: 80%;
+    text-align: left;
+  }
+  body main #contactSection form label {
+    width: 90%;
+    padding-left: 4%;
+  }
+  body main #contactSection form input textarea {
+    width: 90%;
+    padding-left: 2%;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4afd26;
+  }
+  body main #contactSection form .buttonContainer {
+    justify-content: space-evenly;
+  }
+  body main #contactSection form .buttonContainer .btn {
+    padding-right: 2%;
+    margin: 3%;
+    width: 40%;
+  }
+  body main #contactSection form .buttonContainer #submitButton {
+    border: 1px solid;
+    border-color: #4afd26;
+    color: #4afd26;
+  }
+  body main #contactSection form .buttonContainer #submitButton:hover {
+    background-color: #4afd26;
+    color: #435055;
+  }
+  body main #contactSection form .buttonContainer #resetButton {
+    border: 1px solid;
+    border-color: #D926FD;
+    color: #D926FD;
+  }
+  body main #contactSection form .buttonContainer #resetButton:hover {
+    background-color: #D926FD;
+    color: #435055;
+  }
+  body #footerSection {
+    padding-top: 1vh;
+    height: 17vh;
+    background-color: #435055;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  body #footerSection .footerIconContainer {
+    justify-content: space-evenly;
+    padding-top: 10px;
+  }
+  body #footerSection .footerIconContainer a {
+    display: flex;
+    justify-content: center;
+  }
+  body #footerSection .footerIconContainer a img {
+    width: 40%;
+  }
+  body #footerSection .footerTextContainer {
+    padding-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+  body #footerSection .footerTextContainer a {
+    text-decoration: none;
+    color: #4afd26;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
