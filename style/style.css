@@ -239,14 +239,14 @@ body #footerSection .footerIconContainer a {
   justify-content: center;
 }
 body #footerSection .footerIconContainer a img {
-  width: 30%;
+  width: 40%;
 }
 body #footerSection .footerTextContainer {
   padding-top: 10px;
   width: 100%;
   justify-content: space-between;
-  font-size: 90%;
-  padding-left: 10px;
+  font-size: 100%;
+  padding-left: 15px;
   padding-right: 10px;
 }
 body #footerSection .footerTextContainer a {

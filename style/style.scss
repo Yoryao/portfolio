@@ -310,7 +310,6 @@ body {
     background-color: colors.$gray;
     justify-content: space-evenly;
     align-items: center;
-
  
     .footerIconContainer {
       justify-content: space-evenly;
@@ -319,7 +318,7 @@ body {
         display: flex;
         justify-content: center;
         img {
-          width: 30%;
+          width: 40%;
         }
       }
     }
@@ -329,21 +328,14 @@ body {
       width: 100%;
       justify-content:space-between;
       // justify-content: flex-end;
-      font-size: 90%;
-      padding-left: 10px;
+      font-size: 100%;
+      padding-left: 15px;
       padding-right: 10px;
 
       a {
         text-decoration: none;
         color: colors.$greenNeon;
-
       }
-
-
     }
-
   }
-
- 
-  // hero block
 }
