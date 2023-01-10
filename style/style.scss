@@ -240,6 +240,7 @@ body {
     //  contact block
     #contactSection {
       margin-bottom: 7vh;
+      
       p {
         margin-bottom: 3vh;
       }
@@ -344,7 +345,7 @@ body {
 
   body {
     position: relative;
-      
+   
       #upIcon {
         right: 25px;
         bottom: 25px;
@@ -353,7 +354,7 @@ body {
       // header block
     header {
       img {
-        height: 3vh;
+        height: 4vh;
       };
 
       #menuIcon {
@@ -461,24 +462,55 @@ body {
   
   
       #worksSection {
-        flex-wrap: nowrap;
+        display: flex;
         flex-direction: row;
-          h2 p {
-            display: block;
-            width: 50%;
-          }
-          
-        .cardContainer {
-          display: flex;
-          width: 150px;
-   
-       
+        flex-wrap: wrap;
+        width: 90%;
+        margin-left: 5%;
+        
+        h2, p {
+          width: 100%;
+          margin: 0;
         }
-      }
-  
+
+          p{
+            font-size: 110%;
+          }
+    
+        .cardContainer {
+          width: 20%;
+          margin: 5% 2%;
+          height: 75vh;
+        }
+
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       //  contact block
       #contactSection {
         margin-bottom: 7vh;
+        width: 50%;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
         p {
           margin-bottom: 3vh;
         }
@@ -506,75 +538,34 @@ body {
             border: none;
             border-bottom: 1px solid colors.$greenNeon;
           }
-  
-          .buttonContainer {
-            justify-content: space-evenly;
-  
-            .btn {
-              padding-right: 2%;
-  
-              margin: 3%;
-              width: 40%;
-            }
-  
-            #submitButton {
-              border: 1px solid;
-            border-color: colors.$greenNeon;
-            color: colors.$greenNeon;
-          &:hover {
-            background-color: colors.$greenNeon;
-            color: colors.$gray;
-          }
         }
-            #resetButton {
-              border: 1px solid;
-              border-color: colors.$complementary;
-              color: colors.$complementary;
-              &:hover {
-                background-color: colors.$complementary;
-                color: colors.$gray;
-              }
-          }}
+
+        .querySection {
+
+          width: 40%;
+          height: 500px;
+          border:1px solid red;
         }
+
       }
-  
-  
-      // footer block
     }
   
     #footerSection {
-      padding-top: 1vh;
-      height: 17vh;
-      // width: 100%;
-      background-color: colors.$gray;
-      justify-content: space-evenly;
+      flex-direction: row-reverse;
+      height: 15vh;
       align-items: center;
-   
+      
+      
+      
       .footerIconContainer {
-        justify-content: space-evenly;
-        padding-top: 10px;
-        a {
-          display: flex;
-          justify-content: center;
-          img {
-            width: 40%;
-          }
-        }
+        align-items: center;
+        height: 8vh;
+        padding: 0;
       }
-  
+      
       .footerTextContainer {
-        padding-top: 10px;
-        width: 100%;
-        justify-content:space-between;
-        // justify-content: flex-end;
-        font-size: 100%;
-        padding-left: 15px;
-        padding-right: 10px;
-  
-        a {
-          text-decoration: none;
-          color: colors.$greenNeon;
-        }
+        height: 8vh;
+        width: 30%;
       }
     }
   }
