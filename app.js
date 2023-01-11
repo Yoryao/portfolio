@@ -1,4 +1,5 @@
 console.log("app Working");
+alert("This page is made only for mobile devices");
 
 // function to show-hide mobile menu
 
@@ -8,8 +9,14 @@ menuIcon.addEventListener("click", toggleVisible);
 function toggleVisible() {
     let mobileMenu = document.getElementById("mobileMenu");
     mobileMenu.classList.toggle("hidden");
-    console.log("manipulando el menu.")
 }
+
+let menuMobile = document.getElementById("mobileMenu");
+console.log("menuMobile: " + menuMobile) ;
+menuMobile.addEventListener("click", toggleVisible)
+
+// menuAnchor.addEventListener("click" , toggleVisible);
+
 
 
 //function para envio de mail

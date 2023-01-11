@@ -8,14 +8,6 @@
   flex-direction: row;
 }
 
-.title {
-  font-family: "Fjalla One", sans-serif;
-}
-
-.text {
-  font-family: "Noto Sans", sans-serif;
-}
-
 .hidden {
   display: none;
 }
@@ -24,28 +16,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Text Me One", sans-serif;
 }
 
 body {
-  height: 100vh;
-  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
+}
+body #upIcon {
+  border-radius: 100px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  text-align: right;
+  background-color: #4afd26;
 }
 body header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 9vh;
+  height: 8vh;
   justify-content: space-between;
   align-items: center;
   padding: 1vh 1vh;
+  background-color: #D926FD;
+}
+body header img {
+  height: 3vh;
 }
 body header #mobileMenu {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  top: 9vh;
+  top: 8vh;
   right: 0;
   width: 75%;
   height: 60vh;
@@ -62,20 +67,114 @@ body header #mobileMenu a:hover {
   transform: scale(1.1);
 }
 body header #menuIcon {
-  height: 90%;
+  height: 60%;
   width: auto;
 }
-body main #contactSection {
+body main .sectionFont {
   justify-content: center;
   text-align: center;
   color: #A3F7BF;
 }
-body main #contactSection h2 {
+body main .sectionFont h2 {
   padding: 10px 0;
 }
-body main #contactSection p {
+body main .sectionFont p {
   margin: 0 8%;
   font-size: 0.8rem;
+}
+body main .heroSection {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+}
+body main .heroSection img {
+  width: 150%;
+}
+body main .personalSection {
+  margin-bottom: 7vh;
+  text-align: center;
+}
+body main .personalSection h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-decoration: underline;
+}
+body main .personalSection div {
+  margin: 2% 5%;
+}
+body main .personalSection div li {
+  list-style-type: circle;
+}
+body main .personalSection div li h6 {
+  text-align: left;
+}
+body main .experienceSection {
+  margin-bottom: 7vh;
+}
+body main .experienceSection div {
+  justify-content: space-around;
+}
+body main .experienceSection div button {
+  width: 30%;
+}
+body main .experienceSection div button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+body main .experienceSection div #auditorButton {
+  border: 1px solid;
+  border-color: #D926FD;
+  color: #D926FD;
+}
+body main .experienceSection div #auditorButton:hover {
+  background-color: #D926FD;
+  color: #435055;
+}
+body main .experienceSection div #frontendButton {
+  border: 1px solid;
+  border-color: #4afd26;
+  color: #4afd26;
+}
+body main .experienceSection div #frontendButton:hover {
+  background-color: #4afd26;
+  color: #435055;
+}
+body main #worksSection {
+  margin-bottom: 7vh;
+}
+body main #worksSection .cardContainer {
+  height: 80vh;
+  margin: 10%;
+  border: 1px solid springgreen;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body main #worksSection .cardContainer h3,
+body main #worksSection .cardContainer p {
+  margin: 3%;
+}
+body main #worksSection .cardContainer .cardImage {
+  height: 50%;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+body main #worksSection .cardContainer a {
+  margin-bottom: 3%;
+  justify-content: center;
+}
+body main #worksSection .cardContainer a img {
+  width: 60%;
+}
+body main #contactSection {
+  margin-bottom: 7vh;
+}
+body main #contactSection p {
+  margin-bottom: 3vh;
 }
 body main #contactSection form {
   margin: 3% auto;
@@ -111,22 +210,206 @@ body main #contactSection form .buttonContainer #submitButton {
   border-color: #4afd26;
   color: #4afd26;
 }
+body main #contactSection form .buttonContainer #submitButton:hover {
+  background-color: #4afd26;
+  color: #435055;
+}
 body main #contactSection form .buttonContainer #resetButton {
   border: 1px solid;
-  border-color: #fef661;
-  color: #fef661;
+  border-color: #D926FD;
+  color: #D926FD;
 }
-body main #socialSection {
+body main #contactSection form .buttonContainer #resetButton:hover {
+  background-color: #D926FD;
+  color: #435055;
+}
+body #footerSection {
+  padding-top: 1vh;
+  height: 17vh;
+  background-color: #435055;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body #footerSection .footerIconContainer {
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+body #footerSection .footerIconContainer a {
+  display: flex;
   justify-content: center;
-  text-align: center;
-  color: #A3F7BF;
 }
-body main #socialSection h2 {
-  padding: 10px 0;
+body #footerSection .footerIconContainer a img {
+  width: 40%;
 }
-body main #socialSection p {
-  margin: 0 8%;
-  font-size: 0.8rem;
+body #footerSection .footerTextContainer {
+  padding-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 100%;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+body #footerSection .footerTextContainer a {
+  text-decoration: none;
+  color: #4afd26;
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    position: relative;
+  }
+  body #upIcon {
+    right: 25px;
+    bottom: 25px;
+  }
+  body header img {
+    height: 4vh;
+  }
+  body header #menuIcon {
+    display: none;
+  }
+  body header #mobileMenu {
+    display: inline;
+    position: static;
+    background-color: transparent;
+    width: unset;
+    height: unset;
+    font-size: 1.5rem;
+  }
+  body header #mobileMenu a {
+    font-weight: bold;
+  }
+  body header #mobileMenu a:hover {
+    background-color: #4afd26;
+    color: #435055;
+    border-radius: 30px;
+  }
+  body main .sectionFont {
+    justify-content: center;
+    text-align: center;
+    color: #A3F7BF;
+  }
+  body main .heroSection {
+    border: 1px yellow;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    height: 110vh;
+    width: 120%;
+    justify-content: center;
+    margin-left: -10%;
+  }
+  body main .personalSection {
+    margin-bottom: 7vh;
+    text-align: center;
+  }
+  body main .personalSection h2 {
+    width: 85%;
+    font-size: 3rem;
+  }
+  body main .personalSection .factsContainer {
+    margin: 2% 5%;
+  }
+  body main .personalSection .factsContainer .liContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  body main .personalSection .factsContainer .liContainer li {
+    padding-top: 2vh;
+    width: 40%;
+  }
+  body main .personalSection .factsContainer .liContainer li h6 {
+    font-size: 2rem;
+  }
+  body main .experienceSection div {
+    width: 70%;
+    margin-left: 15%;
+    justify-content: space-around;
+  }
+  body main .experienceSection div button {
+    height: 50px;
+    width: 20%;
+  }
+  body main .experienceSection div button a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  body main .experienceSection div #auditorButton:hover {
+    color: #27323A;
+  }
+  body main .experienceSection div #frontendButton:hover {
+    color: #27323A;
+  }
+  body main #worksSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+  }
+  body main #worksSection h2, body main #worksSection p {
+    width: 100%;
+    margin: 0;
+  }
+  body main #worksSection p {
+    font-size: 110%;
+  }
+  body main #worksSection .cardContainer {
+    width: 20%;
+    margin: 5% 2%;
+    height: 75vh;
+  }
+  body main #contactSection {
+    margin-bottom: 7vh;
+    width: 50%;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body main #contactSection p {
+    margin-bottom: 3vh;
+  }
+  body main #contactSection form {
+    margin: 3% auto;
+    padding: 3%;
+    border: 1px solid #4afd26;
+    border-radius: 15px;
+    width: 80%;
+    text-align: left;
+  }
+  body main #contactSection form label {
+    width: 90%;
+    padding-left: 4%;
+  }
+  body main #contactSection form input textarea {
+    width: 90%;
+    padding-left: 2%;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4afd26;
+  }
+  body main #contactSection .querySection {
+    width: 40%;
+    height: 500px;
+    border: 1px solid red;
+  }
+  body #footerSection {
+    flex-direction: row-reverse;
+    height: 15vh;
+    align-items: center;
+  }
+  body #footerSection .footerIconContainer {
+    align-items: center;
+    height: 8vh;
+    padding: 0;
+  }
+  body #footerSection .footerTextContainer {
+    height: 8vh;
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
