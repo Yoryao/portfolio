@@ -8,6 +8,10 @@
   flex-direction: row;
 }
 
+.text .title {
+  font-family: "Text Me One", sans-serif;
+}
+
 .hidden {
   display: none;
 }
@@ -84,7 +88,6 @@ body main .sectionFont p {
 }
 body main .heroSection {
   margin-top: 10vh;
-  margin-bottom: 10vh;
   overflow: hidden;
   width: 100%;
   justify-content: center;
@@ -93,7 +96,7 @@ body main .heroSection img {
   width: 150%;
 }
 body main .personalSection {
-  margin-bottom: 7vh;
+  padding-top: 10vh;
   text-align: center;
 }
 body main .personalSection h2 {
@@ -112,7 +115,7 @@ body main .personalSection div li h6 {
   text-align: left;
 }
 body main .experienceSection {
-  margin-bottom: 7vh;
+  padding-top: 10vh;
 }
 body main .experienceSection div {
   justify-content: space-around;
@@ -143,7 +146,7 @@ body main .experienceSection div #frontendButton:hover {
   color: #435055;
 }
 body main #worksSection {
-  margin-bottom: 7vh;
+  padding-top: 10vh;
 }
 body main #worksSection .cardContainer {
   height: 80vh;
@@ -156,6 +159,10 @@ body main #worksSection .cardContainer {
 body main #worksSection .cardContainer h3,
 body main #worksSection .cardContainer p {
   margin: 3%;
+}
+body main #worksSection .cardContainer h3 span a,
+body main #worksSection .cardContainer p span a {
+  color: #D926FD;
 }
 body main #worksSection .cardContainer .cardImage {
   height: 50%;
