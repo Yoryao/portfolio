@@ -197,6 +197,9 @@ body main #contactSection form label {
   width: 90%;
   padding-left: 4%;
 }
+body main #contactSection form .roundedInput {
+  border-radius: 5px;
+}
 body main #contactSection form input textarea {
   width: 90%;
   padding-left: 2%;

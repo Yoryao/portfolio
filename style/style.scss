@@ -260,12 +260,15 @@ body {
           padding-left: 4%;
         }
 
+        .roundedInput {
+          border-radius: 5px;
+        }
+
         input textarea {
           width: 90%;
           padding-left: 2%;
           margin: auto;
           margin-bottom: 2%;
-
           background-color: transparent;
           border: none;
           border-bottom: 1px solid colors.$greenNeon;
@@ -273,10 +276,8 @@ body {
 
         .buttonContainer {
           justify-content: space-evenly;
-
           .btn {
             padding-right: 2%;
-
             margin: 3%;
             width: 40%;
           }
