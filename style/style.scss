@@ -161,6 +161,8 @@ body {
     
     .experienceSection {
       padding-top: 10vh;
+      width: 90%;
+      margin-left: 5%;
       div{
         justify-content: space-around;
         button {
@@ -215,7 +217,7 @@ body {
             a{
               color: colors.$complementary;
 
-              
+
             }
           }
         }

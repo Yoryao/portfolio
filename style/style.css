@@ -116,6 +116,8 @@ body main .personalSection div li h6 {
 }
 body main .experienceSection {
   padding-top: 10vh;
+  width: 90%;
+  margin-left: 5%;
 }
 body main .experienceSection div {
   justify-content: space-around;
