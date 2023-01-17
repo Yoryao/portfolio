@@ -244,6 +244,7 @@ body {
       margin-bottom: 7vh;
       
       p {
+        font-size: 1.2em;
         margin-bottom: 3vh;
       }
 
@@ -309,7 +310,7 @@ body {
 
   #footerSection {
     padding-top: 1vh;
-    height: 17vh;
+    height: 14vh;
     // width: 100%;
     background-color: colors.$gray;
     justify-content: space-evenly;
@@ -322,7 +323,7 @@ body {
         display: flex;
         justify-content: center;
         img {
-          width: 40%;
+          width: 50%;
         }
       }
     }
@@ -335,6 +336,7 @@ body {
       font-size: 100%;
       padding-left: 15px;
       padding-right: 10px;
+      color: colors.$lime;
 
       a {
         text-decoration: none;

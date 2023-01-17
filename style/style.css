@@ -183,6 +183,7 @@ body main #contactSection {
   margin-bottom: 7vh;
 }
 body main #contactSection p {
+  font-size: 1.2em;
   margin-bottom: 3vh;
 }
 body main #contactSection form {
@@ -237,7 +238,7 @@ body main #contactSection form .buttonContainer #resetButton:hover {
 }
 body #footerSection {
   padding-top: 1vh;
-  height: 17vh;
+  height: 14vh;
   background-color: #435055;
   justify-content: space-evenly;
   align-items: center;
@@ -251,7 +252,7 @@ body #footerSection .footerIconContainer a {
   justify-content: center;
 }
 body #footerSection .footerIconContainer a img {
-  width: 40%;
+  width: 50%;
 }
 body #footerSection .footerTextContainer {
   padding-top: 10px;
@@ -260,6 +261,7 @@ body #footerSection .footerTextContainer {
   font-size: 100%;
   padding-left: 15px;
   padding-right: 10px;
+  color: #A3F7BF;
 }
 body #footerSection .footerTextContainer a {
   text-decoration: none;

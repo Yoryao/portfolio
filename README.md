@@ -1,25 +1,35 @@
-# Hi, I'm George! 
-## So glad you being here!
+# Jorge Rivera´s Web Page.
+
+Thanks for your interest in [my personal web page](https://www.jorgerivera.com.ar)
+
+Here you will find info about my carrer, my resumens, some of my works, and where to find me. You will also find a submission form to send me a message.
+
+## Responsive:
+
+The site is made with two size breackpoints: Mobile and Desktop. 
+
+## From Control:
+
+The control and sumbit of the form was made with [EmailJS](https://sass-lang.co)
+
+## Css Preprocessors:
+
+The style were made with [Sass](https://www.emailjs.com/) and some components with [Bootstrap](https://getbootstrap.com/)
 
 
-You can also find me in [my personal web page!](https://www.jorgerivera.com.ar)
+## Future implementations.
 
-or if you wish by mail [info@jorgerivera.com.ar!](mailto:info@jorgerivera.com.ar)
+1. Tablet desing.
+2. Carrousel with more projects.
+3. Validation to form submit. 
+4. Animations. 
 
-and also [on linkedIn](https://www.linkedin.com/in/jorge-rivera-frontend/)
+## You can contact me in:
 
-
-### Looking for some info about me?
-
-- I´m studying at *[Digital House](https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer)* to get my knowledges certified! (strong)
-- My wish is to be part of a team to face challenging projects!
-- I start my studies in 2020. 
-- I'm always open to collaborate with beginners or in tutoring programs.
-- I love to learn new tools to increase my skills: 
- [x] Html, Css, Javascript, ReactJs
- [x] mySql, mySqlWorkbench, Firebase.
- [x] Git, gitHub, Vercel, Figma.
- [x] Sass, BootsStrap, jQuery.
-- I work as an Security Sistems Auditor in SouthAmerica.
-
+| Site     | Link |
+| -------- | ----------- |
+| LinkedIn | [Linkedin](https://www.linkedin.com/in/jorge-rivera-frontend/)|
+| GitHub   | [guthub.com/yoryao](https://www.github.com/yoryao) |
+| WebPage  | [JorgeRivera.com](https://www.jorgerivera.com.ar) |
+| E-mail   | [info@jorgerivera.com.ar](mailto:info@jorgerivera.com.ar) |
 
