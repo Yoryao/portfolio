@@ -1,16 +1,25 @@
-# portofolio
-3rd portfolio
+# Hi, I'm George! 
+## So glad you being here!
 
-# colors
-#27323A
-#435055
-#29A19C
-#A3F7BF
-rgb(39, 50, 58)
-rgb(67, 80, 85)
-rgb(41, 161, 156)
-rgb(163, 247, 191)
 
-ICONS
-<a target="_blank" href="https://icons8.com/icon/gGUs3TPWpvgb/four-squares">Four Squares</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+You can also find me in [my personal web page!](https://www.jorgerivera.com.ar)
+
+or if you wish by mail [info@jorgerivera.com.ar!](mailto:info@jorgerivera.com.ar)
+
+and also [on linkedIn](https://www.linkedin.com/in/jorge-rivera-frontend/)
+
+
+### Looking for some info about me?
+
+- I´m studying at *[Digital House](https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer)* to get my knowledges certified! (strong)
+- My wish is to be part of a team to face challenging projects!
+- I start my studies in 2020. 
+- I'm always open to collaborate with beginners or in tutoring programs.
+- I love to learn new tools to increase my skills: 
+ [x] Html, Css, Javascript, ReactJs
+ [x] mySql, mySqlWorkbench, Firebase.
+ [x] Git, gitHub, Vercel, Figma.
+ [x] Sass, BootsStrap, jQuery.
+- I work as an Security Sistems Auditor in SouthAmerica.
+
 
