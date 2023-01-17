@@ -1,5 +1,4 @@
 console.log("app Working");
-alert("This page is made only for mobile devices");
 
 // function to show-hide mobile menu
 

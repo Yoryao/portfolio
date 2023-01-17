@@ -13,14 +13,8 @@
   flex-direction: row;
 }
 
-.title {
-  // font-family: fonts.$fjalla;
-
-}
-
-.text {
-  // font-family: fonts.$noto;
-  
+.text .title {
+  font-family: fonts.$textMeOne;
 }
 
 .hidden {
@@ -41,8 +35,7 @@
 
 body {
   position: relative;
-  
-  
+   
   // width: 100vw;
   background: linear-gradient(
     to bottom,
@@ -124,7 +117,7 @@ body {
     }
     .heroSection {
       margin-top: 10vh;
-      margin-bottom: 10vh;
+      
       overflow: hidden;
       width: 100%;
       justify-content: center;
@@ -136,38 +129,40 @@ body {
     // works block
 
     .personalSection {
-      margin-bottom: 7vh;
+      padding-top: 10vh;
       text-align: center;
-    h2 {
-      margin-left: auto;
-      margin-right: auto;
-      width: 85%;
-      text-decoration: underline;
-    }
-
-    div {
-      margin: 2% 5%;
-      
-      li {
-
-        list-style-type: circle ;
-
-        h6 {
-          text-align: left;
-
-        }
+      h2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        text-decoration: underline;
       }
-    
-    
+      
+      div {
+        margin: 2% 5%;
+        
+        li {
+          
+          list-style-type: circle ;
+          
+          h6 {
+            text-align: left;
+            
+          }
+        }
+        
+        
+      }
+      
+      
+      
+      
     }
-
-
-
-
-    }
-
+    
     .experienceSection {
-      margin-bottom: 7vh;
+      padding-top: 10vh;
+      width: 90%;
+      margin-left: 5%;
       div{
         justify-content: space-around;
         button {
@@ -204,7 +199,7 @@ body {
 
 
     #worksSection {
-      margin-bottom: 7vh;
+      padding-top: 10vh;
       .cardContainer {
         // position: static;
         height: 80vh;
@@ -218,6 +213,13 @@ body {
         h3,
         p {
           margin: 3%;
+          span{
+            a{
+              color: colors.$complementary;
+
+
+            }
+          }
         }
 
         .cardImage {
@@ -258,12 +260,15 @@ body {
           padding-left: 4%;
         }
 
+        .roundedInput {
+          border-radius: 5px;
+        }
+
         input textarea {
           width: 90%;
           padding-left: 2%;
           margin: auto;
           margin-bottom: 2%;
-
           background-color: transparent;
           border: none;
           border-bottom: 1px solid colors.$greenNeon;
@@ -271,10 +276,8 @@ body {
 
         .buttonContainer {
           justify-content: space-evenly;
-
           .btn {
             padding-right: 2%;
-
             margin: 3%;
             width: 40%;
           }
@@ -485,23 +488,6 @@ body {
 
         }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
       //  contact block
